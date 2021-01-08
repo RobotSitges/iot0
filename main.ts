@@ -6,6 +6,7 @@ basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     Temperatura = input.temperature()
     basic.showNumber(Temperatura)
+    radio.sendValue("Conectado", 1)
     radio.sendValue("Temperatura", Temperatura)
     basic.pause(60000)
 })
