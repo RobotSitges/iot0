@@ -7,5 +7,5 @@ basic.forever(function () {
     Temperatura = input.temperature()
     basic.showNumber(Temperatura)
     radio.sendValue("Temperatura", Temperatura)
-    basic.pause(5000)
+    basic.pause(60000)
 })
