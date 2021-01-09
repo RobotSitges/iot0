@@ -8,5 +8,6 @@ basic.forever(function () {
     basic.showNumber(Temperatura)
     radio.sendValue("Conectado", 1)
     radio.sendValue("Temperatura", Temperatura)
-    basic.pause(60000)
+    basic.showIcon(IconNames.House)
+    basic.pause(1000)
 })
